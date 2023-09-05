@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORM</title>
+</head>
+<style>
+    body{
+        text-align: center;
+        background-color: cornflowerblue;
+        margin: 0 auto;
+        padding: 50px;
+        font-size: large;
+        font-weight: bold;
+        width: 100%;
+        
+    }
+    
+</style>
+
+<body>
+<form action="create.php" method="POST">
+<H1 style="color: aqua;"><i> form order</i></H1>
+   full_name: <br>
+    <input type="text" name="name" placeholder="enter your full_name" required><br>
+    email: <br>
+    <input type="text" name="email" placeholder="enter email" required id=""> <br>
+    address: <br>
+    <input type="text" name="address" placeholder="enter address" id=""> <br>
+    phone_number: <br>
+    <input type="int" name="number" placeholder="enter phone number" required id=""> <br>
+    Your order_:    <br>
+    <textarea name="order_" id="" cols="30" rows="5"></textarea> <br>
+    <div>
+    <input type="submit" name="submit">
+</div>
+    <br>
+    <a href="./index.html">back</a>
+    </form>
+</body>
+</html>
